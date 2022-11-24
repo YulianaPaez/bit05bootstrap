@@ -36,7 +36,7 @@ a img:hover {
   z-index: 1;
   width: 35px;
   height: 35px;
-  box-shadow: 5px 5px 5px 5px lightgray;
+  
   
 }
 .caja-contacto-asesor {
@@ -93,3 +93,7 @@ textarea {
   padding: 0px 20px 0px 20px;
   margin: none;
 }    
+.copi {
+  text-align: center;
+ 
+}
