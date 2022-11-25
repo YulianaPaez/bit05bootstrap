@@ -35,8 +35,10 @@ footer {
   float:left
 }
 
-a img:hover {
-    color: #fff;
+li:hover {
+background-color: lightgrey;
+border-radius: 16px;
+opacity: 5;
 }
 /*Estilos para caja de contacto asesores */
 .caja-asesor-ubicacion {
@@ -108,5 +110,7 @@ textarea {
   padding: 0px 20px 0px 20px;
   margin: none;
 }    
+
+
 
 
