@@ -1,7 +1,7 @@
 # PAGINA WEB "I C N D Y"
 ## SOMOS LO QUE ESTAS BUSCANDO - MODA Y ESTILO
-Es una tienda en lo que encuentras todo lo que estas buscando, ofrecemos nuevos estilos novedosos,de colores llamativos y de hermosos acabados.
-Vestidos.
+###Es una tienda en lo que encuentras todo lo que estas buscando, ofrecemos nuevos estilos novedosos,de colores llamativos y de hermosos acabados.
+#####Vestidos.
 Jeans.
 Blusas.
 Minifaldas.
