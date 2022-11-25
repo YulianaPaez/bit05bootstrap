@@ -9,4 +9,4 @@
 #### *Búscanos y te darás cuenta que "I C N D Y " ofrece un estilo diferente, estamos buscando una nueva versión de la moda en mujeres y hombres. Además tenemos ofertas y todo esta al alcance de el cliente* 
 ## AUTORES
 [Yuliana Paez](https://www.linkedin.com/in/yuliana-garavito-paez-a84a5814a/) 
-[Jhonatahn Gallego](#)
+[Johnnathan Gallego](https://www.linkedin.com/in/johnnathan-gallego-romero-57824b13b/)
