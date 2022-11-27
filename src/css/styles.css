@@ -119,6 +119,17 @@ textarea {
   overflow-y: scroll;
 }
 
+.noticia-header {
+  font-size: 20px;
+  text-decoration: black;
+  font-weight: 1000;
+}
+.logo-footer {
+  width: 150px ;
+  height: 150px;
+
+}
+
   
 
 
