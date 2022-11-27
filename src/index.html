@@ -12,18 +12,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans+Mende+Kikakui&family=Pinyon+Script&family=Poppins:wght@300&family=Questrial&display=swap" rel="stylesheet">
-    <title>I C N D Y - inicio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans+Mende+Kikakui&family=Pinyon+Script&family=Poppins:wght@300&family=Questrial&display=swap" rel="stylesheet">
+    
+<title>I C N D Y - inicio</title>
   </head>
+<!--Barra promocional Header-->
+<header class="bg-danger" href="/src/sale.html">
+    <marquee behavior="scroll" direction="down" scrollamount="1" class="text-center noticia-header" >
+    <span>BLACK FRIDAY I C N D Y , 50% OFF en toda la tienda! </span> 
+  </marquee>
+</header>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo01">
-          <img class="logo " src="/src/img/logo-blanco.png" alt=""> 
+        <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo01" href="#inicio">
+          <img class="logo" src="/src/img/logo-blanco.png" alt="Logo ICNDY" >
           <h1 class="text-left">I C N D Y</h1>
+          <div id="inicio" ></div>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="/src/hombres.html">HOMBRES<span class="sr-only"></span></a>
@@ -148,11 +157,13 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
-    <!--barra de ayuda asesor-->
+    
     <div>
-      <label for="check-asesor" class="caja-asesor-ubicacion"><!--Botón fijo para ayuda con asesor-->
-        <span class="material-symbols-outlined">support_agent</span>
+      <!--Botón fijo para ayuda con asesor-->
+      <label for="check-asesor" class="caja-asesor-ubicacion">
+      <img class="boton-asesor" src="./img/s-cliente.png" alt="">
       </label>
+      <!--barra de ayuda asesor-->
       <input type="checkbox" id="check-asesor" class="caja-asesor">
       <section class="caja-contacto-asesor"><!--Caja para enviar peticion a asesor-->
       <p>Por favor diligencia los campos solicitados y cuentanos como podemos ayudarte</p>
@@ -172,10 +183,17 @@
         </div>
     </div>
 
+     
+    
+      <!--Botón fijo para subir a inicio-->
+        
+        <a href="#inicio"><img  class="boton-subir" src="/src/img/flecha-arriba.png" alt="">Subir </a>
+  
+
     <!--Deshabilitar el boton cuando no esté Check--> 
     <footer>
         <div class="container">
-          <div class="row">
+          <div class="row ">
                   <div class="mr-auto">
                     <h6 class="text-muted-lead">CONTACTO:</h6>
                       <h6 class="text-muted">
@@ -184,6 +202,9 @@
                         Teléfonos: 3224544298<br>
                       </h6>
                   </div>
+                <div>
+                  <img class="mx-auto logo-footer" src="/src/img/logo-blanco.png" alt="">
+                </div>
                 <div class="ml-auto">
                   <h6 class="text-muted-lead">ENCUENTRANOS EN LAS REDES</h6>
                     <a href="https://www.instagram.com/"><img src="img/logo-instagram.png" width="105px"></a>
