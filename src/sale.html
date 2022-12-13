@@ -7,7 +7,7 @@
     <meta name="description"
       content="Bienvenido a la mejor y mas grande tienda de ropa especializada en Outfits y estilos unicos" />
     <meta name="keywords" content="ropa, vestidos, chaquetas, camisas, camisetas, jeans, outfits" />
-    <title>I C N D Y - inicio</title>
+    <title>I C N D Y - Descuentos</title>
 
     <!-- Animacion -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -27,6 +27,11 @@
   <!--Estilo y contenido de seccion Hombres-->
 
   <body>
+    <header class="bg-danger" href="/src/sale.html">
+      <marquee behavior="scroll" direction="down" scrollamount="1" class="text-center noticia-header">
+        <span>BLACK FRIDAY I C N D Y , 50% OFF en toda la tienda! </span>
+      </marquee>
+    </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +39,7 @@
       </button>
       <div class="collapse navbar-collapse mx-auto" id="navbarTogglerDemo01">
         <img class="logo " src="/src/img/logo-blanco.png" alt="">
-        <h1 class="text-left">I C N D Y</h1>
+        <h1 class="text-left">𝕀 ℂ ℕ 𝔻 𝕐 </h1>
         <div id="inicio"></div>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -50,7 +55,7 @@
         </ul>
         <form class="form-inline ml-auto">
           <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+          <button class="btn btn-secondary my-2 my-sm-0 colorsale" type="submit">Buscar</button>
         </form>
       </div>
     </nav>
@@ -94,7 +99,7 @@
               <img class="card-img-top" src="./img/s-producto-1.jpg">
               <div class="card-body">
                 <h5 class="card-title">Pantaloneta Camo</h5>
-                <p class="card-text">$59.000</p>
+                <p class="card-text colorsale">$59.000</p>
               </div>
           </div>
           <div class="card">
@@ -102,7 +107,7 @@
               <img class="card-img-top" src="./img/s-producto-2.jpg">
               <div class="card-body">
                 <h5 class="card-title">Falta Rayas azul</h5>
-                <p class="card-text">$59.000</p>
+                <p class="card-text colorsale">$59.000</p>
               </div>
             </a>
           </div>
@@ -111,7 +116,7 @@
               <img class="card-img-top" src="./img/s-producto-3.jpg">
               <div class="card-body">
                 <h5 class="card-title">Blusa Roja</h5>
-                <p class="card-text">$59.000</p>
+                <p class="card-text colorsale">$59.000</p>
               </div>
             </a>
           </div>
@@ -120,7 +125,7 @@
               <img class="card-img-top" src="./img/s-producto-4.jpg">
               <div class="card-body">
                 <h5 class="card-title">Camisa Camo verde</h5>
-                <p class="card-text">$79.000</p>
+                <p class="card-text colorsale">$79.000</p>
               </div>
             </a>
           </div>
@@ -129,7 +134,7 @@
               <img class="card-img-top" src="./img/s-producto-5.jpg">
               <div class="card-body">
                 <h5 class="card-title">Blusa verde claro</h5>
-                <p class="card-text">$49.000</p>
+                <p class="card-text colorsale">$49.000</p>
               </div>
             </a>
           </div>
@@ -138,7 +143,7 @@
               <img class="card-img-top" src="./img/s-producto-6.jpg">
               <div class="card-body">
                 <h5 class="card-title">Blusa suelta rosa</h5>
-                <p class="card-text">$59.000</p>
+                <p class="card-text colorsale">$59.000</p>
               </div>
             </a>
           </div>
@@ -147,7 +152,7 @@
               <img class="card-img-top" src="./img/s-producto-7.jpg">
               <div class="card-body">
                 <h5 class="card-title">Vestido corto rojo</h5>
-                <p class="card-text">$79.000</p>
+                <p class="card-text colorsale">$79.000</p>
               </div>
             </a>
           </div>
@@ -156,7 +161,7 @@
               <img class="card-img-top" src="./img/s-producto-8.jpg">
               <div class="card-body">
                 <h5 class="card-title">Vestido largo Flores</h5>
-                <p class="card-text">$99.000</p>
+                <p class="card-text colorsale">$99.000</p>
               </div>
             </a>
           </div>
@@ -165,13 +170,34 @@
               <img class="card-img-top" src="./img/s-producto-9.jpg">
               <div class="card-body">
                 <h5 class="card-title">Jean Claro</h5>
-                <p class="card-text">$79.000</p>
+                <p class="card-text colorsale">$79.000</p>
               </div>
             </a>
           </div>
         </div>
       </div>
     </div>
+    <hr>
+    
+    <!-- FORMULARIO JAVASCRIPT -->
+      <form class="tamaño" id="form">
+        <fieldset class="field">
+          <legend class="nombrej">Dejanos tus datos para proximas promociones</legend>
+          <label>Nombre:
+            <input type="text" name="nombre" class="orden">
+          </label>
+          <label>Correo:
+            <input type="email" name="correo" class="orden">
+          </label>
+          <label>Celular:
+            <input name="celular" class="orden"></input>
+          </label>
+          <button class="manito" type="submit">Enviar</button><br>
+          <button class="manito1" type="reset">Borrar</button>
+        </fieldset>
+      </form> <br>
+      <h3 class="campos" id="notificacion">Todos los campos son requeridos.*</h3>
+    <!-- FINAL FORMULARIO JAVASCRIPT -->
     <aside class="bit py-5">
       <p>
         <small class="container"></small>
@@ -179,32 +205,30 @@
             src="https://bit.institute/images/Instituto-Cursos-Programacion.png" alt="Logo de BIT"></a>
       </p>
     </aside>
-
     <div>
-      <!--Botón fijo para ayuda con asesor-->
       <label for="check-asesor" class="caja-asesor-ubicacion">
-        <img class="boton-asesor" src="./img/s-cliente.png" alt="">
+        <img class="boton-asesor" src="./img/s-cliente.png" alt="" />
       </label>
       <!--barra de ayuda asesor-->
-      <input type="checkbox" id="check-asesor" class="caja-asesor">
-      <section class="caja-contacto-asesor"><!--Caja para enviar peticion a asesor-->
-        <p>Por favor diligencia los campos solicitados y cuentenos como podemos ayudarlo</p>
+      <input type="checkbox" id="check-asesor" class="caja-asesor" />
+      <section class="caja-contacto-asesor">
+        <!--Caja para enviar peticion a asesor-->
+        <p>¿Quieres saber mas sobre nosotros? Dejanos tus datos:</p>
         <form>
           <label for="Nombre">Nombre:*</label>
-          <input type="search" placeholder="Nombre">
-          <label for="Email">Email:*</label>
-          <input type="search" placeholder="Ej: aprendiendodehistoria@gmail.com">
-          <label for="Celular">Numero mobil:*</label>
-          <input type="text" placeholder="Numero celular">
-          <p>Como podemos ayudarte?</p>
+          <input type="search" placeholder="" />
+          <label for="Email">Correo:*</label>
+          <input type="search" placeholder="" />
+          <label for="Celular">Celular:*</label>
+          <input type="text" placeholder="" />
+          <p>¿Como podemos ayudarte?</p>
         </form>
-        <textarea cols="30" rows="10" placeholder="Escriba aquí su solicitud."></textarea>
-        <input type="checkbox" name="#" id="#">Acepta que sus datos sean recopilados y manejados por nosotros.
+        <textarea class="rearea" cols="30" rows="10" placeholder="Escribe aquí tu solicitud."></textarea>
+        <input type="checkbox" name="#" id="#">Aceptas que tus datos sean recopilados y manejados por nosotros.
         <div><button>Enviar</button></div><!--Deshabilitar el boton cuando no esté Check-->
     </div>
 
     <!--Botón fijo para subir a inicio-->
-
     <a href="#inicio"><img class="boton-subir" src="/src/img/flecha-arriba.png" alt=""> </a>
 
     <footer>
@@ -233,8 +257,9 @@
           .</small></p>
     </footer>
   </body>
-
-  <!-- INSTALACION DE JAVASCRIP -->
+  <!-- JAVASCRIP -->
+  <script src="./JavaScript/javascript.js">
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
